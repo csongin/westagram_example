@@ -1,0 +1,30 @@
+{
+  "name": "westagram_example",
+  "version": "1.0.0",
+  "description": "1. 초기 세팅 2. health check 3. CRUD",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csongin/westagram_example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csongin/westagram_example/issues"
+  },
+  "homepage": "https://github.com/csongin/westagram_example#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dbmate": "^1.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.3.10"
+  }
+}
